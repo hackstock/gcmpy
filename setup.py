@@ -1,13 +1,13 @@
 from distutils.core import setup
 setup(
-  name = 'mypackage',
-  packages = ['mypackage'], # this must be the same as the name above
+  name = 'gcmpy',
+  packages = ['gcmpy'], # this must be the same as the name above
   version = '0.1',
-  description = 'A random test lib',
-  author = 'Peter Downs',
-  author_email = 'peterldowns@gmail.com',
-  url = 'https://github.com/peterldowns/mypackage', # use the URL to the github repo
-  download_url = 'https://github.com/peterldowns/mypackage/tarball/0.1', # I'll explain this in a second
-  keywords = ['testing', 'logging', 'example'], # arbitrary keywords
+  description = 'A python implementation of the Google Cloud Messaging server protocol for pushing messages to Android clients',
+  author = 'Edward Pie',
+  author_email = 'hackstockpie@gmail.com',
+  url = 'https://github.com/hackstock/gcmpy', # use the URL to the github repo
+  download_url = 'https://github.com/hackstock/gcmpy/tarball/0.1', # I'll explain this in a second
+  keywords = ['gcm', 'gcm-server', 'push notifications'], # arbitrary keywords
   classifiers = [],
 )
